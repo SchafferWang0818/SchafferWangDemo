@@ -19,3 +19,11 @@
 .usermotto {
   margin-top: 200px;
 }
+.new-text-class{
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  text-align: center;
+  padding: 10rpx;
+  color: red;
+}

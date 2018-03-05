@@ -50,5 +50,8 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  clickMeForMsg:function(){
+    this.setData({ theMsg: "这是调用js代码之后输入的内容"})
   }
 })
