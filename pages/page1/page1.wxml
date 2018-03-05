@@ -1,0 +1,13 @@
+<view>
+  <include src="../index/index" />
+  <text>这是一个文本内容:{{initText}}</text>
+  <button bindtap='btnClick'>这是一个按钮</button>
+  <text wx:if="{{initBoolean}}">这是应该要显示的内容</text>
+  <text wx:else>{{initBoolean}}</text>
+  <text wx:for="{{items}}">
+  {{index}}-->{{item}}
+  </text>
+
+  <import src="../template/templates" />
+  <template is="temp1" data="{{dataText:'这是temp的导入内容数据'}}" />
+</view>

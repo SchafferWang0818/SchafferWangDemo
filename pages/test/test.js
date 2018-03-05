@@ -11,8 +11,9 @@ Page({
   onReady:function(){
     console.log("onReady")
   },
-  handleTap1:function(){
+  handleTap1:function(e){
     console.log("handle-outer->1")
+    console.log(e)
   },
   handleTap2: function () {
     console.log("handle-middler->2")

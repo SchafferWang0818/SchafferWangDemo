@@ -1,4 +1,4 @@
-<view  id="outer" bindtap="handleTap1">
+<view  id="outer" bindtap="handleTap1" data-id='100' data-title='title1'>
   outer view
   <view id="middle" bindtap="handleTap2">
     middle view
