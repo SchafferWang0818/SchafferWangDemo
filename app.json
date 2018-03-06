@@ -1,6 +1,6 @@
 {
   "pages": [
-    
+    "pages/network/net",
     "pages/test/test",
     "pages/index/index",
     "pages/page1/page1",
@@ -8,7 +8,7 @@
   ],
   "window": {
     "backgroundTextStyle": "dark",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "支付鸨",
     "navigationBarTextStyle": "white",
     "backgroundColor": "#f0f0f0",
     "navigationStyle": "custom",

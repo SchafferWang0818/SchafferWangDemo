@@ -35,5 +35,8 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+  getVersionInfo:function(){
+    return wx.getSystemInfoSync().version
   }
 })
