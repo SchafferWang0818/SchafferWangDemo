@@ -1,0 +1,11 @@
+<!--pages/lassie/baby.wxml-->
+<view>
+  <swiper indicator-dots='true' autoplay='true' interval='1500' circular='true'>
+    <block wx:for="{{[0,1,2,3,4]}}" wx:for-item="index">
+    <swiper-item bindtap="onSwiperItemClick">
+      <image src='../../imgs/img{{index}}.jpg'mode="widthFix"></image>
+    </swiper-item>
+    </block>
+  </swiper>
+
+</view>

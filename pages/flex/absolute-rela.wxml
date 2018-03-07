@@ -1,0 +1,7 @@
+<view class='container'>
+  <view class='inner'>1</view>
+  <view class='inner rela'>2</view>
+  <view class='inner'>3</view>
+  <view class='inner abso'>4</view>
+  <view class='inner'>5</view>
+</view>

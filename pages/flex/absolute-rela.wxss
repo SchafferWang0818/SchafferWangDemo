@@ -1,0 +1,30 @@
+/* pages/flex/absolute-rela.wxss */
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: greenyellow;
+  margin: 100rpx;
+}
+
+.inner {
+  background-color: pink;
+  width: 100rpx;
+  height: 100rpx;
+  border: 1px solid white;
+}
+
+.abso {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+/* 绝对定位是相对于一个离它最近的已定位的父级元素进行定位 */
+
+.rela {
+  /* 相对于自己原来应该的位置 */
+  position: relative;
+  left: 100px;
+  top: 100rpx;
+}

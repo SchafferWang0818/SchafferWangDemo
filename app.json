@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/lassie/baby",
+    "pages/flex/absolute-rela",
+    "pages/flex/flex2",
+    "pages/flex/flex1",
     "pages/network/net",
     "pages/test/test",
     "pages/index/index",
