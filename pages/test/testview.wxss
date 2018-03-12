@@ -1,0 +1,36 @@
+page{
+  background: pink;
+}
+.rect{
+  width: 60px;
+  height: 60px;
+  border: 3px white solid;
+  color: #49cd49;
+  margin: 5px 20px 3px;
+}
+
+.rect text{
+  display: block;
+  text-align: center;
+  line-height: 60px;
+}
+
+.view-row{
+  flex-direction: row;
+  display: flex;
+}
+.view-col{
+  flex-direction: column;
+  display: inline-flex;
+}
+.view-col-rev{
+  flex-direction: column-reverse;
+  display: inline-flex;
+}
+
+
+.scroll{
+  display: block;
+  height: 150px;
+  background: white;
+}

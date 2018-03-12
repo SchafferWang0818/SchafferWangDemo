@@ -1,11 +1,10 @@
 {
   "pages": [
-    "pages/lassie/baby",
+    "pages/test/testview",
     "pages/flex/absolute-rela",
+    "pages/lassie/baby",
     "pages/flex/flex2",
     "pages/flex/flex1",
-    "pages/network/net",
-    "pages/test/test",
     "pages/index/index",
     "pages/page1/page1",
     "pages/logs/logs"
@@ -13,10 +12,12 @@
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarTitleText": "支付鸨",
-    "navigationBarTextStyle": "white",
-    "backgroundColor": "#f0f0f0",
-    "navigationStyle": "custom",
-    "navigationBarBackgroundColor": "#f0f0f0",
+    "navigationBarTextStyle": "",
+    "backgroundColor": "#62d8ff",
+    "navigationStyle": "default",
+    "backgroundColorBottom":"#62d8ff",
+    "backgroundColorTop": "#62d8ff",
+    "navigationBarBackgroundColor": "#62d8ff",
     "enablePullDownRefresh": true,
     "onReachPullDownDistance": "5px",
     "onReachBottomDistance": "10px"

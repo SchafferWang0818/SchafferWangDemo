@@ -1,9 +1,0 @@
-<view  id="outer" bindtap="handleTap1" data-id='100' data-title='title1'>
-  outer view
-  <view id="middle" bindtap="handleTap2">
-    middle view
-    <view id="inner" bindtap="handleTap3">
-      inner view
-    </view>
-  </view>
-</view>

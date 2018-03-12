@@ -1,7 +1,0 @@
-<view>
-
-
-  <button id="login" bindtap='login'>点击登录</button>
-  <view>{{system}}</view>
-  <button id='login' bindlongtap='systeminfo'>获取系统信息</button>
-</view>
